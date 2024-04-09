@@ -1,0 +1,116 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - Flutter (1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - network_info_plus (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - ReachabilitySwift (5.0.0)
+  - share_plus (0.0.1):
+    - Flutter
+  - sqflite (0.0.3):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Stripe (23.7.1):
+    - StripeApplePay (= 23.7.1)
+    - StripeCore (= 23.7.1)
+    - StripePayments (= 23.7.1)
+    - StripePaymentsUI (= 23.7.1)
+    - StripeUICore (= 23.7.1)
+  - stripe_ios (0.0.1):
+    - Flutter
+    - Stripe (~> 23.7.0)
+    - StripeApplePay (~> 23.7.0)
+    - StripeFinancialConnections (~> 23.7.0)
+    - StripePayments (~> 23.7.0)
+    - StripePaymentSheet (~> 23.7.0)
+    - StripePaymentsUI (~> 23.7.0)
+  - StripeApplePay (23.7.1):
+    - StripeCore (= 23.7.1)
+  - StripeCore (23.7.1)
+  - StripeFinancialConnections (23.7.1):
+    - StripeCore (= 23.7.1)
+    - StripeUICore (= 23.7.1)
+  - StripePayments (23.7.1):
+    - StripeCore (= 23.7.1)
+    - StripePayments/Stripe3DS2 (= 23.7.1)
+  - StripePayments/Stripe3DS2 (23.7.1):
+    - StripeCore (= 23.7.1)
+  - StripePaymentSheet (23.7.1):
+    - StripeApplePay (= 23.7.1)
+    - StripeCore (= 23.7.1)
+    - StripePayments (= 23.7.1)
+    - StripePaymentsUI (= 23.7.1)
+  - StripePaymentsUI (23.7.1):
+    - StripeCore (= 23.7.1)
+    - StripePayments (= 23.7.1)
+    - StripeUICore (= 23.7.1)
+  - StripeUICore (23.7.1):
+    - StripeCore (= 23.7.1)
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - Flutter (from `Flutter`)
+  - network_info_plus (from `.symlinks/plugins/network_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - stripe_ios (from `.symlinks/plugins/stripe_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - ReachabilitySwift
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripeFinancialConnections
+    - StripePayments
+    - StripePaymentSheet
+    - StripePaymentsUI
+    - StripeUICore
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  Flutter:
+    :path: Flutter
+  network_info_plus:
+    :path: ".symlinks/plugins/network_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  stripe_ios:
+    :path: ".symlinks/plugins/stripe_ios/ios"
+
+SPEC CHECKSUMS:
+  connectivity_plus: 413a8857dd5d9f1c399a39130850d02fe0feaf7e
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  network_info_plus: b78876159360f5580608c2cea620d6ceffabd0ad
+  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  share_plus: 599aa54e4ea31d4b4c0e9c911bcc26c55e791028
+  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+  Stripe: fbe3d1d61cba70ac7a920c6097222ba9525352c4
+  stripe_ios: 8e0be46c31e1758756e5fdc1613f751d4d945ae0
+  StripeApplePay: 06e3899c9db102567804b77c41cec2861b5e2c39
+  StripeCore: 9b331e5f9d4067ef7296718c680a73ad6f2d1066
+  StripeFinancialConnections: 7d8116c4dcd3b034f13a181b4d96e6991b594cfc
+  StripePayments: 46fbd561312cb300c93dd855b9c896285c8eb1fb
+  StripePaymentSheet: 016fd1c6053efff1f348fc6f44babecacda9d0af
+  StripePaymentsUI: cb06c01d3c9efde91ebce218f9e4e94e902dd676
+  StripeUICore: a9db3f2a82c932d5ca58dd8fc4ac0a6b72f1ccee
+
+PODFILE CHECKSUM: 24ec43b4f73ee8efe1419284e6eefaf24db1a88d
+
+COCOAPODS: 1.12.1
